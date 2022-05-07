@@ -3,7 +3,11 @@ package scoreBoard;
 public class Runner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		ScoreBoard scoreTable = new ScoreBoard();
+		System.out.println("----------------");
+		scoreTable.showByUserName();
+		scoreTable.showByUserCountry();
+		scoreTable.showByUserRank();
 
 	}
 
