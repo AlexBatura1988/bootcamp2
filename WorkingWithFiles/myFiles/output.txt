@@ -1,0 +1,5 @@
+word 578 is:  but
+line count is: 3600
+world count is: 32519
+sentence 18 is: 
+on the bank, and of having nothing to do:  once or twice she had
