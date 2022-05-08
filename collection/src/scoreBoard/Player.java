@@ -3,16 +3,12 @@ package scoreBoard;
 import java.util.Objects;
 
 public class Player implements Comparable<Player> {
-private final int SCORE = 100;
-	
+
 	private String name;
 	private String country;
 	private int score;
 	private int rank;
-	public Player() {
-		
-	}
-	
+
 	public Player(String name, String country, int score, int rank) {
 		this.name = name;
 		this.country = country;
@@ -51,8 +47,6 @@ private final int SCORE = 100;
 	public void setRank(int rank) {
 		this.rank = rank;
 	}
-	
-	
 
 	@Override
 	public int hashCode() {
@@ -70,10 +64,10 @@ private final int SCORE = 100;
 		Player other = (Player) obj;
 		return score == other.score;
 	}
-	
+
 	@Override
 	public int compareTo(Player o) {
-		
+
 		return this.getScore() - o.getScore();
 	}
 
