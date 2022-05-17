@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class>
+	<Students>
+		<Student1>
+			<id> 1</id>
+			<Gender>male</Gender>
+			<FirstName>Alex</FirstName>
+			<LastName>Batura</LastName>
+			<Notes>Single</Notes>
+		</Student1>
+
+		<Student2>
+			<id> 2</id>
+			<Gender>female</Gender>
+			<FirstName>Lilit</FirstName>
+			<LastName>David</LastName>
+			<Notes>2</Notes>
+		</Student2>
+
+		<Student3>
+			<id> 3</id>
+			<Gender>male</Gender>
+			<FirstName>Moshe</FirstName>
+			<LastName>Koen</LastName>
+			<Notes>2 notes</Notes>
+		</Student3>
+	</Students>
+</class>

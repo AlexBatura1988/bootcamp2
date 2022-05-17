@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<television>
+	<serialNum uniqe="false"> Sumsung</serialNum>
+	<size>
+		<length>100</length>
+		<height>80</height>
+	</size>
+
+
+</television>
+
