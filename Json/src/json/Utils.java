@@ -22,7 +22,7 @@ public  class Utils {
 		ingredientList1.add(in4);
 		
 		Pastry pastry1 = new Pastry("baget",150,ingredientList,Label.PAREVE);
-		Pastry pastry2 = new Pastry("Steak",200,ingredientList1,Label.MEAT);
+		Pastry pastry2 = new Pastry("Steak",200,ingredientList1,Label.PAREVE);
 		
 		pastryList.add(pastry1);
 		pastryList.add(pastry2);

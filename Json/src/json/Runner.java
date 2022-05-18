@@ -73,7 +73,7 @@ public class Runner {
 	private static Map<Label,List<Pastry>> convertToMap(List<Pastry> pastryList){
 		
 		Map map = pastryList.stream()
-				.collect(Collectors.toMap(Pastry :: getLabel, list -> list));
+				.collect(Collectors.groupingBy(pastry -> pastry.getLabel()));
 		return map;
 	}
 	
