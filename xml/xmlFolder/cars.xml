@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cars><car license="LicencePlate [plate=111, color=black]" manufacter="Mazda" model="3" year="2015" /><car license="LicencePlate [plate=222, color=white]" manufacter="Mazda" model="6" year="2020" /><car license="LicencePlate [plate=333, color=yellow]" manufacter="Opel" model="Astra" year="2019" /></cars>
+<cars>
+	<car license="LicencePlate [plate=111, color=black]"
+		manufacter="Mazda" model="3" year="2015" />
+	<car license="LicencePlate [plate=222, color=white]"
+		manufacter="Mazda" model="6" year="2020" />
+	<car license="LicencePlate [plate=333, color=yellow]"
+		manufacter="Opel" model="Astra" year="2019" />
+</cars>
