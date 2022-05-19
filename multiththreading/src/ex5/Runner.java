@@ -16,7 +16,7 @@ public class Runner {
 		for (int i = 0; i < SIZE; i++) {
 			list1.add((int) (Math.random()*999));
 		}
-		list1.set(10,null);
+		list1.set(10,20);
 		
 		Thread.setDefaultUncaughtExceptionHandler((Thread t, Throwable exception) -> {
 			System.out.println("Found 10 in " + Thread.currentThread().getName());
